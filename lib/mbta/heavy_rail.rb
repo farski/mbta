@@ -5,7 +5,7 @@ module MBTA
     include MBTA::HeavyRail::System
 
     BlueLine = MBTA::HeavyRail::System::MAP.lines['Blue']
-    GreenLine = MBTA::HeavyRail::System::MAP.lines['Green']
+    OrangeLine = MBTA::HeavyRail::System::MAP.lines['Orange']
     RedLine = MBTA::HeavyRail::System::MAP.lines['Red']
   end
 end

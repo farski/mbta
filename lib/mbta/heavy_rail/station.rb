@@ -11,7 +11,7 @@ module MBTA
       end
 
       def inspect
-        @name
+        %("#{@name}")
       end
 
       def platforms(direction = nil)
