@@ -10,6 +10,10 @@ module MBTA
         @platforms = platforms
       end
 
+      def inspect
+        @name
+      end
+
       def platforms(direction = nil)
         if (direction)
           self[direction]

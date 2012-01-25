@@ -1,3 +1,7 @@
+require './mbta/heavy_rail/line'
+require './mbta/heavy_rail/station'
+require './mbta/heavy_rail/platform'
+
 module MBTA
   module HeavyRail
     module System
@@ -11,7 +15,7 @@ module MBTA
 
       class Builder
         def initialize
-          @data = CSV.read("../data/RealTimeHeavyRailKeys.csv", { headers: true })
+          @data = ::CSV.read("../data/RealTimeHeavyRailKeys.csv", { headers: true })
         end
 
         def map
