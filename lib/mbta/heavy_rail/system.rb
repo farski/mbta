@@ -1,6 +1,6 @@
-require './mbta/heavy_rail/line'
-require './mbta/heavy_rail/station'
-require './mbta/heavy_rail/platform'
+require 'mbta/heavy_rail/line'
+require 'mbta/heavy_rail/station'
+require 'mbta/heavy_rail/platform'
 
 module MBTA
   module HeavyRail

@@ -1,4 +1,4 @@
-require './mbta/heavy_rail/system'
+require 'mbta/heavy_rail/system'
 
 module MBTA
   module HeavyRail
