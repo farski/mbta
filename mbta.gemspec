@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = 'mbta'
   gem.require_paths = ['lib']
   gem.version       = MBTA::VERSION
+
+  gem.add_dependency('httparty', '>= 0.8.0')
 end
